@@ -9,7 +9,7 @@ type UserProfileCardProps = {
 export default function UserProfileCard({ user, onViewDetails }: UserProfileCardProps) {
   const { id, name, email, avatarUrl, isOnline, skills } = user;
 
-  const statusColor = isOnline ? '#22c55e' : '#9ca3af'; // เขียว/เทา
+  const statusColor = isOnline ? '#22c55e' : '#9ca3af';
   const statusText  = isOnline ? 'ออนไลน์' : 'ออฟไลน์';
 
   const handleView = () => onViewDetails(id);

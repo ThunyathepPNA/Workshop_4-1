@@ -14,7 +14,7 @@ export default function SkillTag({ skillName, level }: SkillTagProps) {
         display: 'inline-block',
         padding: '4px 8px',
         borderRadius: 999,
-        background: '#eef2ff',   // ฟ้าอ่อน
+        background: '#eef2ff',
         border: '1px solid #dbe4ff',
         fontSize: 12,
         marginRight: 6,
