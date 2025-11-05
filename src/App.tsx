@@ -14,7 +14,6 @@ export default function App() {
   return (
     <div className="app-wrap">
       <h1>User Profile Card System</h1>
-      <p className="subtitle">Workshop 4.1 – React Components / Props / One-way Data Flow</p>
 
       <div className="grid">
         {users.map((u) => (
